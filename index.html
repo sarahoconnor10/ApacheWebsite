@@ -1,0 +1,28 @@
+<html>
+	<head>
+		<title>Sarah's VM </title>
+		<style>
+			h1 {
+				color: red;
+			}
+		</style>
+
+
+	</head>
+	<body>
+		<h1> hello there ... </h1>
+		<div><p id = "swap"> This is an edited web page!!!!!!!!!! </p></div>
+		<button onclick = "myEvent()">click me</button>
+
+
+	<script language = "javascript" >
+		function myEvent()
+		{
+			let replace = document.getElementById("swap");
+			replace.innerHTML = "<h2 color:'blue'>You clicked the button!!</h2>";
+		}
+
+	</script>
+	</body>
+
+</html>
